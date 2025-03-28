@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .quote-box {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-left: 4px solid #4CAF50;
+    background: #f9f9f9;
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .quote-author {
+    text-align: right;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .dog-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  #refresh-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #refresh-btn:hover {
+    background: #45a049;
+  }
