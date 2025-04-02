@@ -7,16 +7,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1><%= message %></h1>
-  
-  <button type="button" id="refresh-btn">Get New Content</button>
-  
-  <div class="quote-box">
-    <p class="quote-text"><%= quote ? quote.quote : '' %></p>
-    <p class="quote-author"><%= quote ? `— ${quote.author}` : '' %></p>
+  <div class="container">
+    <h1><%= message %></h1>
+    
+    <div class="quote-box">
+      <p class="quote-text"><%= quote ? quote.quote : '' %></p>
+      <p class="quote-author"><%= quote ? `— ${quote.author}` : '' %></p>
+    </div>
+    
+    <img class="dog-image" src="<%= dogImage ? dogImage.url : '' %>" alt="Random dog">
+
+    <button type="button" id="refresh-btn">Get New Content</button>
   </div>
-  
-  <img class="dog-image" src="<%= dogImage ? dogImage.url : '' %>" alt="Random dog">
 
   <script src="app.js"></script>
 </body>
