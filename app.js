@@ -22,7 +22,7 @@ app.use((err, req, res, next) => {
   res.status(500).send('Oops! The page you are looking for does not exist.');
 });
 
-const PORT = 3002;
+const PORT = 3003;
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}/`);
